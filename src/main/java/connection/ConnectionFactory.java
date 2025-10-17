@@ -54,6 +54,9 @@ CREATE TABLE movimentacoes (
     FOREIGN KEY (id_produto) REFERENCES produtos(id),
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
 );
+INSERT INTO categorias (nome) VALUES ('Eletrônicos');
+INSERT INTO categorias (nome) VALUES ('Material de Escritório');
+INSERT INTO categorias (nome) VALUES ('Alimentos');
 */
 package connection;
 
